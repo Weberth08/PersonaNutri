@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.438
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dominio", "Dominio", "{20498C4E-E3B0-44B1-8E95-D42C71A8913A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aplicacao", "Aplicacao", "{090F90C8-D3BE-4FBF-96F1-BA0E8E101480}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{C3FFD831-D6D9-4BED-86EA-F999933251BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonalNutri.Dominio", "PersonalNutri.Dominio\PersonalNutri.Dominio.csproj", "{D455FB23-2C5A-4666-BE31-61E897A2D5FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonalNutri.Dominio.Testes", "PersonalNutri.Dominio.Testes\PersonalNutri.Dominio.Testes.csproj", "{D12B1B3E-365B-4F7F-8E5E-4896435BECC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonalNutri.Aplicacao", "PersonalNutri.Aplicacao\PersonalNutri.Aplicacao.csproj", "{57D7F784-CA37-42FD-B603-C227036C12EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonalNutri.UI.Console", "PersonalNutri.UI.Console\PersonalNutri.UI.Console.csproj", "{B314C797-1DEB-4704-AB87-BD0A48D3C81A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D455FB23-2C5A-4666-BE31-61E897A2D5FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D455FB23-2C5A-4666-BE31-61E897A2D5FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D455FB23-2C5A-4666-BE31-61E897A2D5FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D455FB23-2C5A-4666-BE31-61E897A2D5FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D12B1B3E-365B-4F7F-8E5E-4896435BECC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D12B1B3E-365B-4F7F-8E5E-4896435BECC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D12B1B3E-365B-4F7F-8E5E-4896435BECC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D12B1B3E-365B-4F7F-8E5E-4896435BECC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57D7F784-CA37-42FD-B603-C227036C12EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57D7F784-CA37-42FD-B603-C227036C12EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57D7F784-CA37-42FD-B603-C227036C12EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57D7F784-CA37-42FD-B603-C227036C12EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B314C797-1DEB-4704-AB87-BD0A48D3C81A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B314C797-1DEB-4704-AB87-BD0A48D3C81A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B314C797-1DEB-4704-AB87-BD0A48D3C81A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B314C797-1DEB-4704-AB87-BD0A48D3C81A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D455FB23-2C5A-4666-BE31-61E897A2D5FB} = {20498C4E-E3B0-44B1-8E95-D42C71A8913A}
+		{D12B1B3E-365B-4F7F-8E5E-4896435BECC4} = {20498C4E-E3B0-44B1-8E95-D42C71A8913A}
+		{57D7F784-CA37-42FD-B603-C227036C12EA} = {090F90C8-D3BE-4FBF-96F1-BA0E8E101480}
+		{B314C797-1DEB-4704-AB87-BD0A48D3C81A} = {C3FFD831-D6D9-4BED-86EA-F999933251BC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {88E53312-EE81-415A-A5BB-B2450A304D03}
+	EndGlobalSection
+EndGlobal
